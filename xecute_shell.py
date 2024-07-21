@@ -25,6 +25,7 @@ def execute_shell_command_in_directory(directory, command):
 
 # Example usage
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.DEBUG)
     directory_to_enter = "freegpt-webui-v2"
     command_to_execute = "python run.py"
 
